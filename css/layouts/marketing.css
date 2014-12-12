@@ -11,11 +11,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
+ * font-family: 'Archivo Black', sans-serif;
+ * font-family: 'Archivo Narrow', sans-serif;
  */
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font-size: 13px;
+    font:'Archivo Narrow', sans-serif;
 }
 
 h1,
@@ -26,6 +28,8 @@ h5,
 h6,
 label {
     color: #34495e;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
 }
 
 .pure-img-responsive {
@@ -186,9 +190,8 @@ a.pure-button-primary {
 	margin-top: 30px;	
 }
 .blah p {
-	margin-left: 30px;
+	margin-left: 20px;
 	width: 100%;
-	text-align: justify;
 }
 .blah h3 {
 	margin-left: 30px;	
@@ -240,6 +243,7 @@ a.pure-button-primary {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    background-color: rgba(0,0,0,.6); 
 }
 
 /* This is the subheading that appears on the blue section */
