@@ -21,7 +21,6 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css">
 <!--<![endif]-->
 
-
 </head>
 <body>
 
@@ -38,7 +37,7 @@
 </div>
     
     <div class="pure-g wow fadeInRight">
-        <div class="pure-u-1 pure-u-md-1-3"><img src="img/img_iphone_front_green.png">
+        <div class="pure-u-1 pure-u-md-1-3"><img src="img/orbis_front.jpg">
         
                 <div class="pure-u-1 pure-u-md-1-3 blah">
                 <h3 class="content-subhead">
@@ -51,7 +50,7 @@
                 </div>
                 
         </div>
-        <div class="pure-u-1 pure-u-md-1-3"><img src="img/img_iphone_back.png">
+        <div class="pure-u-1 pure-u-md-1-3"><img src="img/orbis_back.jpg">
         
             <div class="pure-u-1 pure-u-md-1-3 blah">
                 <h3 class="content-subhead">
@@ -64,7 +63,7 @@
             </div>
                 
         </div>
-        <div class="pure-u-1 pure-u-md-1-3"><img src="img/img_iphone_side.png">
+        <div class="pure-u-1 pure-u-md-1-3"><img src="img/orbis_side.jpg">
             
             <div class="pure-u-1 pure-u-md-1-3 blah">
                 <h3 class="content-subhead">
@@ -106,7 +105,7 @@
     </div>
     
     <div class="content">
-        <h2 class="content-head is-center">Orbis and Atlas will arrive in 2016</h2>
+        <h2 class="content-head is-center">Orbis and Atlas will arrive in 2020</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
@@ -131,7 +130,7 @@
             <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
                 <h4>Contact Us for Pre-Order</h4>
                 <p>
-                    When launched in 2016, Orbis and Atlas will revolutionize the industry. Be the first to own this landmark device. With your help, Orbis and Atlas will become the next widely used device on the planet. We have the resources needed to build it, we just need your funding to make it a reality. 
+                    Coming in 2020, Orbis and Atlas will revolutionize the industry. Be the first to own this landmark device. With your help, Orbis and Atlas will become the next widely used device on the planet. We have the resources needed to build it, we just need your funding to make it a reality. 
                 </p>
 
                 <h4>More Information</h4>
@@ -143,13 +142,16 @@
 
     </div>
 
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
-
 </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    //$(".splash-head").hide().fadeIn(1500).animate({top:"100px"});
+    $(".splash-head").animate({ opacity: 0 }, 0);
+    $(".splash-head").animate({"top": "+=50px", "opacity": "1"}, 1500);
+});
+</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script>
 new WOW().init();
