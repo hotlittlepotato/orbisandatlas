@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font:'Archivo Narrow', sans-serif;
+    font-family:'Archivo Narrow', sans-serif;
 }
 
 h1,
@@ -272,10 +272,11 @@ a.pure-button-primary {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 1em 0 1em;
+    font-size: 2em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
