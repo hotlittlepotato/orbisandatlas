@@ -196,6 +196,9 @@ a.pure-button-primary {
 .blah h3 {
 	margin-left: 30px;	
 }
+.center {
+    text-align: center;
+}
 
 .splash-container {
     background: url(../../img/Atlas_Orbis_Office_on.png) no-repeat center;
@@ -306,6 +309,12 @@ a.pure-button-primary {
 #phoneFlip {
 	height: 1000px;
 	background: #EDA63E;
+}
+img.atlas{
+    padding: 30px;
+}
+.mid {
+    margin:0 auto;
 }
 
 /*
